@@ -18,11 +18,12 @@ public class Main2 {
         List<Studente> students = new ArrayList<>();
         List<Tutor> tutors = new ArrayList<>();
 
-        List<String> studentParams= new ArrayList<>(){{
-            add("matricola");
-            add("facolta");
-            add("universita");
-        }};
+        List<String> studentParams= new ArrayList<>();
+
+        studentParams.add("matricola");
+        studentParams.add("facolta");
+        studentParams.add("universita");
+
         List<String> tutorParams= new ArrayList<>(){{
             add("idTutor");
             add("corso");
